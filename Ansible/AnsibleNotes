@@ -156,6 +156,9 @@ GO TO the worker NODE now
 
 # echo "<your public key>" >> authorized_keys 
 
+Now go back to the master and type 
+#ssh root@<private ip of worker machine>
+
 Now go back to Master and update the inventory file
 
 # cd /etc/ansible

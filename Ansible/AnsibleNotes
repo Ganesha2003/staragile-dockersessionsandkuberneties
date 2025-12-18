@@ -208,6 +208,11 @@ Syntax :
 ===========
 
 ansible [hostgroup] -m [modulename] -a [argument/input]
+EX:
+#ansible webserver -m ping
+#ansible webserver -m command -a "uptime"
+#ansible webserver -m file -a "path-/tmp/file1 state-touch"
+#ansible webserver -m command -a "ls /tmp"
 
 ===============================================================
 Playbook:
